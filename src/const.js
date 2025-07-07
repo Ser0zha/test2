@@ -1,0 +1,10 @@
+export const FETCH_DATES = 'FETCH_DATES';
+export const ADD_DATE = 'ADD_DATE';
+export const SET_DATE = 'SET_DATE';
+export const DELETE_DATE = 'DELETE_DATE';
+export const SELECT_DATE = 'SELECT_DATE';
+export const ADD_NOTE = 'ADD_NOTE';
+export const SET_NOTE = 'SET_NOTE';
+export const SET_NOTE_INDEX = 'SET_NOTE_INDEX';
+export const SELECT_NOTE = 'SELECT_NOTE';
+export const DELETE_NOTE = 'DELETE_NOTE';

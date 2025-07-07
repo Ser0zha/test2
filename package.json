@@ -1,0 +1,38 @@
+{
+    "name": "react-project",
+    "version": "1.0.0",
+    "description": "Simple React Project",
+    "main": "index.js",
+    "scripts": {
+        "install-deps": "npm install --registry=http://ntp-nexus3.krista.ru/repository/npm-all/",
+        "build-dev": "webpack --config webpack.config.js --mode development",
+        "build-prod": "webpack --config webpack.config.js --mode production"
+    },
+    "author": "",
+    "license": "",
+    "devDependencies": {
+        "@babel/core": "^7.26.9",
+        "@babel/preset-env": "^7.26.9",
+        "@babel/preset-react": "^7.26.3",
+        "babel-loader": "^9.2.1",
+        "clean-webpack-plugin": "^4.0.0",
+        "css-loader": "^6.7.1",
+        "html-webpack-plugin": "^5.6.3",
+        "mini-css-extract-plugin": "^2.6.0",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.98.0",
+        "webpack-cli": "^6.0.1"
+    },
+    "dependencies": {
+        "bootstrap": "3.4.1",
+        "immutable": "4.0.0",
+        "moment": "2.29.4",
+        "react": "16.14.0",
+        "react-bootstrap": "0.33.1",
+        "react-dom": "16.14.0",
+        "react-redux": "7.2.6",
+        "redux": "4.1.2",
+        "redux-logger": "3.0.6",
+        "redux-thunk": "2.4.1"
+    }
+}
